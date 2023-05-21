@@ -1,0 +1,55 @@
+body#loginbody{
+    background-size: 0%;
+    backdrop-filter: blur(2px);
+    background: url('../img/bg.jpg')no-repeat center center fixed;
+
+}
+div.loginheader{
+    text-align: center;
+}
+
+div.loginheader h1{
+    font-size: 100px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+div.loginheader p{
+    font-size: 50px;
+    border-bottom: 2px solid;
+    margin: 15px;
+
+}
+div.loginHeader p:after{
+	content:'';
+	display: block;
+	height: 5px;
+	background: #f685a2;
+	margin:0 auto;
+}
+div.loginbody{
+    text-align: center;
+    font-size: 45px;
+    margin:0 auto;
+	width: 450px;
+	background: rgba(5, 4, 3, 0.5);
+	padding:50px;
+	border:2px solid #ff0000;
+	border-radius: 8px;
+    color: #f383c5;
+}
+
+div.loginInputsContainer{
+	margin-top:30px;
+}
+div.loginButtonContainer{
+	margin-top:40px;
+	text-align: center;
+}
+div.loginButtonContainer button{
+	font-size: 20px;
+	padding: 10px 40px;
+	background: #ff0040;
+	border:none;
+	color: #fffefe;
+}
